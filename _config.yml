@@ -6,34 +6,31 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Mishaal Usman
+title: BS Computer Science Student
+email: mishaalusman9@gmail.com
+website: github.com/mishaalusman
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+github_username: mishaalusman
+linkedin_username: mishaal-usman
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: Location
+  icon: fas fa-map-marker-alt
+  url: https://maps.google.com/?q=Islamabad,+Pakistan
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +43,123 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I am a Computer Science student at Lahore University of Management Sciences with experience across full-stack development, AI/ML, and data science.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I enjoy building practical products that combine strong engineering with modern AI techniques, from itinerary generation systems to crop-disease advisory platforms.
+
+  Core focus areas: <mark>Full-Stack Development</mark>, <mark>Machine Learning</mark>, and <mark>Cloud-Native Deployment</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Jazz
+        sub_title: IT Regulatory Affairs Intern
+        caption: Aug 2024
+        quote: >
+          Supported regulatory and governance-aligned IT operations documentation.
+        description: | # this will include new lines to allow paragraphs
+          - Maintained and reviewed 50+ IT compliance and regulatory documents aligned with governance and telecom regulatory frameworks.
+          - Built Excel-based compliance tracking dashboards that improved reporting accuracy and data consistency by 15%.
+          - Collaborated across 3 departments to streamline documentation workflows and reduce audit preparation time by 20%.
+
+      - layout: left
+        title: Saudi Pak Bank
+        sub_title: IT Intern
+        caption: 2022
+        quote: >
+          Evaluated enterprise remote access and cloud security controls.
+        description: | # this will include new lines to allow paragraphs
+          - Evaluated remote access controls and user access policies across banking systems, identifying 5+ vulnerabilities.
+          - Conducted security risk assessments of cloud and internal IT systems, reviewing authentication and access controls.
+          - Delivered presentations on remote access security, RBAC, and cloud governance best practices.
+
+  - title: Leadership and Extra-Curricular
+    layout: list
+    content:
+      - layout: left
+        title: AIESEC in LUMS
+        sub_title: Team Lead (Marketing and PR)
+        caption: 2022 - 2024
+        quote: >
+          Led growth-focused campaigns and team coordination for student initiatives.
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of 8 marketing associates to execute digital campaigns, increasing event participation by 30%.
+          - Managed multi-platform social strategy, growing audience engagement by 45% and follower base by 40%.
+          - Coordinated sponsorship outreach and partnerships with 5+ organizations to expand campaign reach.
+
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Nomad - AI Travel Planner
+        sub_title: Software Engineering
+        caption: 2025
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Built a full-stack AI planner to generate personalized itineraries.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - Developed with React, Next.js, FastAPI, and MongoDB to generate itineraries from preferences, budget, and trip duration.
+          - Integrated LLaMA-3 LLM APIs with prompt engineering for structured day-by-day outputs.
+          - Built RESTful APIs and deployed on AWS and Vercel with JWT authentication and ~3 second itinerary generation.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: AgriQual - AI-Driven Agricultural Advisory Platform
+        sub_title: Senior Year Project
+        caption: 2025 - 2026
+        quote: >
+          Designed an AI platform for crop disease diagnosis and advisory recommendations.
+        description: | # this will include new lines to allow paragraphs
+          - Developed a full-stack platform using React, Node.js, FastAPI, and MongoDB.
+          - Built a PyTorch CNN service via FastAPI microservices for real-time crop image disease predictions.
+          - Implemented a RAG pipeline with OpenAI embeddings and MongoDB vector search using GPT-4.1-mini.
+          - Integrated weather APIs and used Docker and Kubernetes for scalable deployment.
+
+      - layout: top-middle
+        title: Global COVID-19 Data Analysis
+        sub_title: Data Science
+        caption: 2024 - 2025
+        quote: >
+          Analyzed global mortality indicators using statistical learning workflows.
+        description: | # this will include new lines to allow paragraphs
+          - Analyzed a 24k+ row dataset with 66 features using Pandas, NumPy, and Scikit-learn.
+          - Performed preprocessing and feature engineering with missing value imputation, IQR outlier removal, and log transformations.
+          - Built and evaluated Linear, Ridge, and Random Forest models, improving prediction accuracy from R^2 about 0.09 to 0.29+.
+          - Identified policy stringency (~42%) and GDP (~23%) as key predictors.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Lahore University of Management Sciences
+        sub_title: BS Computer Science
+        caption: 2022 - 2026
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Key coursework: Software Engineering, Databases, Artificial Intelligence and Machine Learning, Data Science, Object Oriented Programming, Advanced Programming, Algorithms, Data Structures, Network Centric Computing, and Fundamentals of Computer Systems.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Lahore Grammar School
+        sub_title: A Levels
+        caption: 2020 - 2022
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Achieved 3 As (Top 10% of cohort).
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - **Programming:** C++, C, Python, JavaScript, SQL, Haskell
+      - **Web and Full-Stack:** React, Node.js, Express.js, FastAPI, MongoDB, HTML, CSS
+      - **AI and Machine Learning:** PyTorch, Scikit-learn, NumPy, Pandas, OpenAI API, RAG, LLM integration
+      - **Cloud and DevOps:** Docker, Kubernetes, GitHub Actions, CI/CD, REST APIs, Microservices Architecture
+      - **Tools:** Git, Jupyter Notebook, LaTeX, MATLAB
+      - **UX and Product Design:** Figma, user research, usability testing, survey and interview design
 
-      Look at this cool image  
-      ![Trees](/MishaalUsman/images/landscape-trees.jpg "Trees")
+  - title: Interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Horse riding, trekking, photography, and music.
 
 # Footer
 footer_show_references: true
